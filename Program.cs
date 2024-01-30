@@ -13,6 +13,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+//this is myFeature-2
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
