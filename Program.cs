@@ -13,7 +13,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-//this is myFeature-1
+//this is new code to fix what myFeature-1 broke
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
